@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manish Solanki | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="preload" as="image" href="profilephoto.webp" type="image/webp" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#home">Manish Solanki</a>
+      <button class="nav-toggle" aria-label="Toggle navigation">Menu</button>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow">Hi, I'm</p>
+          <h1 id="hero-name">Manish Solanki</h1>
+          <p class="hero-title" id="hero-title"></p>
+          <p id="hero-summary" class="hero-summary">A responsive, attractive portfolio to showcase skills, projects, and experience. Replace this text with your real LinkedIn summary.</p>
+          <div class="hero-tools" aria-label="Core tools and technologies">
+            <span class="tech-badge">
+              <span class="tech-icon">🐍</span>
+              <span>Python</span>
+            </span>
+            <span class="tech-badge">
+              <span class="tech-icon">🧠</span>
+              <span>NLP</span>
+            </span>
+            <span class="tech-badge">
+              <span class="tech-icon">🖥️</span>
+              <span>Tkinter</span>
+            </span>
+            <span class="tech-badge">
+              <span class="tech-icon">🔍</span>
+              <span>SEO</span>
+            </span>
+          </div>
+          <div class="hero-actions">
+            <a class="btn primary-btn" href="#projects">View Projects</a>
+            <a class="btn secondary-btn" href="#contact">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="profile-ring">
+            <picture>
+              <source srcset="profilephoto.webp" type="image/webp" />
+              <img id="profile-image" src="profilephoto.png" alt="Profile photo" decoding="async" width="320" height="320" />
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="section-header">
+          <span class="section-label">About</span>
+          <h2>Professional Profile</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-text" id="about-text">
+            <p>As an SEO specialist and full stack developer, I combine technical optimization, content strategy, and development skills to improve search rankings and digital performance. I work across education, scholarship, and IT services verticals to deliver measurable organic growth and user-friendly websites.</p>
+          </div>
+          <div class="about-stats">
+            <div class="stat-card">
+              <span class="stat-value" id="stat-projects">20+</span>
+              <span class="stat-label">Projects Delivered</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-value" id="stat-experience">1+ yrs</span>
+              <span class="stat-label">Experience</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-value" id="stat-clients">10+</span>
+              <span class="stat-label">Clients / Employers</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section skills" id="skills">
+        <div class="section-header">
+          <span class="section-label">Skills</span>
+          <h2>What I do best</h2>
+        </div>
+        <div class="cards-grid" id="skills-grid"></div>
+      </section>
+
+      <section class="section projects" id="projects">
+        <div class="section-header">
+          <span class="section-label">Projects</span>
+          <h2>Recent work</h2>
+        </div>
+        <div class="cards-grid" id="projects-grid"></div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="section-header">
+          <span class="section-label">Contact</span>
+          <h2>Let's Connect</h2>
+        </div>
+        <div class="contact-card">
+          <p>Have a project, internship, or job opportunity? Send a message and I’ll respond quickly.</p>
+          <div class="contact-details">
+            <div>
+              <strong>Email</strong>
+              <p><a id="contact-email" href="mailto:solankimanish7017@gmail.com">solankimanish7017@gmail.com</a></p>
+            </div>
+            <div>
+              <strong>Location</strong>
+              <p id="contact-location">India</p>
+            </div>
+            <div>
+              <strong>LinkedIn</strong>
+              <p><a id="contact-linkedin" href="https://www.linkedin.com/in/manish-solanki-6b4168238/" target="_blank" rel="noreferrer">linkedin.com/in/manish-solanki-6b4168238</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <p class="footer-title">Manish Solanki</p>
+          <p class="footer-copy">Helping businesses improve visibility, performance, and user experience through technical SEO and scalable web solutions.</p>
+        </div>
+
+        <div class="footer-section">
+          <p class="footer-heading">Quick Links</p>
+          <nav class="footer-links" aria-label="Footer quick links">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+          </nav>
+        </div>
+
+        <div class="footer-section">
+          <p class="footer-heading">Services</p>
+          <div class="footer-links">
+            <span>Technical SEO</span>
+            <span>Website Optimization</span>
+            <span>Web Development</span>
+            <span>Performance Audits</span>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <p class="footer-heading">Connect</p>
+          <div class="footer-links">
+            <a href="https://www.linkedin.com/in/manish-solanki-6b4168238/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="mailto:solankimanish7017@gmail.com">Email</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-legal">
+        <p>© 2026 Manish Solanki</p>
+        <p>Optimized for users and search engines.</p>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
